@@ -1,0 +1,35 @@
+Java:
+Its core principle is “Write Once, Run Anywhere.”
+Java is an object-oriented programming language. While an object-oriented programming language is about objects that contain both data and methods
+Class and objects:
+* A class (logical constructor)is a group of properties (name, color, shape, etc.)and functions. It is a blueprint used to create objects that share common properties and behavior.
+* An object (physical reality)is an instance (physical entity)of a class created to access its data and operations. Each object holds its own state. It represents a specific entity created from the class template(group of objects).
+* Objects are stored in heap memory, and reference variables are stored in stack memory.
+State: Values stored in fields(values from its datatype).
+Behavior: Actions defined through methods(where the value is stored).
+Identity: Distinguishes one object from another
+
+(Ex: Car is classed object is nano, surimi,ect,, So class is temple from which  objectis created and object is an instance (physical entity(physical appraise))of class when ever we are creating the individual objects they inherit all the variables and methods from a class.everything in java is associated with class and object along with attributes and methods.)
+
+Ex:
+Public class Main{
+Public static void main(String []args)
+{                                                                 class creating
+Int a=90;
+Int b=87;
+}
+String kittuObj= new String();                                     object creating
+}
+
+The development environment of Java consists of three main components:
+1. JVM (Java Virtual Machine): JVM is the engine that runs Java programs. It converts Java bytecode (compiled code) into machine code (understandable by the OS).
+2. JRE (Java Runtime Environment): JRE = JVM + Libraries + Other components needed to run Java applications.
+3. JDK (Java Development Kit): JDK = JRE + Development Tools. It is required for developing Java applications.
+Data Types in Java:
+In Java, data types specify the type of values a variable can hold. They define the size, range and nature of data stored in memory. Java has two main categories of data types:
+1. Primitive: byte, short, int, long, float, double, char, boolean
+2. Non-Primitive: String, Arrays, Classes, Interfaces, Objects
+Operators in Java:
+Operators are symbols that perform specific operations on one or more operands (variables or values). They are used to perform calculations, comparisons, logical operations and manipulate data.
+ex:+,=,-,/,>,<,||,&,%
+
